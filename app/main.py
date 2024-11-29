@@ -7,8 +7,8 @@ def is_isogram(word: str) -> bool:
 
 
 print(
-is_isogram('playgrounds') is True,
-is_isogram('look') is False,
-is_isogram('Adam') is False,
-is_isogram('') is True,
+    is_isogram("playgrounds") is True,
+    is_isogram("look") is False,
+    is_isogram("Adam") is False,
+    is_isogram("") is True,
 )
